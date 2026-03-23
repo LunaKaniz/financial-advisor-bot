@@ -23,7 +23,7 @@ The chatbot is rule-based and uses simple keyword detection.
 - If it includes "budget", it applies the 50/30/20 rule  
 - If it includes "breakdown", it splits the income into categories  
 
-It extracts numbers from the sentence and uses them directly. If no valid number is found, it returns a default response.
+It extracts numbers from the sentence and uses them directly. If no number is found, the chatbot returns a specific prompt asking the user to enter their monthly income. If the intent cannot be detected, it returns a general help message..
 
 ---
 
